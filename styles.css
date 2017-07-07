@@ -1,0 +1,32 @@
+body{
+	
+}
+
+header{
+background-color:black; 
+color:white;
+padding:30px;
+text-align:center;
+font-size:30px;
+font-weight:bold;
+font-family:rockwell;
+}
+
+footer{
+background-color:black; 
+padding:10px;
+}
+
+p{
+	font-size:15px;
+	font-family:rockwell;
+	color:white;
+}
+
+#right{
+	text-align:right;
+}
+
+#left{
+	text-align:left;
+}
