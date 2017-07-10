@@ -1,20 +1,15 @@
-body{
-	
-}
-
 header{
 background-color:black; 
 color:white;
-padding:30px;
-text-align:center;
-font-size:30px;
+padding:10px;
+font-size:40px;
 font-weight:bold;
 font-family:rockwell;
 }
 
 footer{
 background-color:black; 
-padding:10px;
+padding:8px;
 }
 
 p{
@@ -29,4 +24,57 @@ p{
 
 #left{
 	text-align:left;
+}
+
+a:link{
+color:blue;
+}
+
+a:visited{
+color:red;
+}
+
+a:hover{
+color:green;
+}
+
+
+button{
+font-size:20px;
+font-family:rockwell;
+color:white;
+padding:15px;
+}
+
+#buyer{
+background-color:#154360
+}
+
+#seller{
+background-color:#D35400;
+}
+
+
+figcaption
+{
+	align:center;
+}
+img
+{
+	border:1px;
+	height:150px;
+	width:120px;
+}
+#cells
+{
+	border-collapse: collapse;
+	border-spacing:0px;
+	padding:0px;
+	border:1px solid black;
+}
+td
+{
+	width:0%;
+	margin:0px;
+	padding:0px;
 }
