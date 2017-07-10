@@ -1,0 +1,238 @@
+header{
+background-color:black; 
+color:white;
+padding:10px;
+font-size:40px;
+font-weight:bold;
+font-family:rockwell;
+}
+
+footer{
+background-color:black; 
+padding:8px;
+}
+
+p{
+	font-size:15px;
+	font-family:rockwell;
+	color:white;
+}
+
+#right{
+	text-align:right;
+}
+
+#left{
+	text-align:left;
+}
+
+a:link{
+color:blue;
+}
+
+a:visited{
+color:red;
+}
+
+a:hover{
+color:green;
+}
+
+
+.button {
+	font-family:rockwell;
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #001f3F;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	width: 150px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	border-radius: 25px;
+	-webkit-transition: all 200ms ease-in;
+	-webkit-transform: scale(1); 
+	-ms-transition: all 200ms ease-in;
+	-ms-transform: scale(1); 
+	-moz-transition: all 200ms ease-in;
+	-moz-transform: scale(1);
+	transition: all 200ms ease-in;
+	transform: scale(1);   
+
+}
+.button:hover
+{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.25);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.25);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.25);
+    transition: all 200ms ease-in;
+    transform: scale(1.25);
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#buyer{
+background-color:#154360
+}
+
+#seller{
+background-color:#D35400;
+}
+
+
+figcaption
+{
+	align:center;
+}
+img
+{
+	border:1px;
+	height:150px;
+	width:120px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 10px;
+	border-radius: 25px;
+	-webkit-transition: all 200ms ease-in;
+	-webkit-transform: scale(1); 
+	-ms-transition: all 200ms ease-in;
+	-ms-transform: scale(1); 
+	-moz-transition: all 200ms ease-in;
+	-moz-transform: scale(1);
+	transition: all 200ms ease-in;
+	transform: scale(1);   
+}
+img:hover
+{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.25);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.25);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.25);
+    transition: all 200ms ease-in;
+    transform: scale(1.25);
+}
+img span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+img span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+img:hover span {
+  padding-right: 25px;
+}
+
+img:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#cells
+{
+	border-collapse: collapse;
+	border-spacing:0px;
+	padding:0px;
+	border:1px solid black;
+}
+td
+{
+	width:0%;
+	margin:0px;
+	padding:0px;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+#animate-area	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(http://il6.picdn.net/shutterstock/videos/3723116/thumb/1.jpg);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 7s linear infinite;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
