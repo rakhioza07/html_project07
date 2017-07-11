@@ -15,13 +15,13 @@
 			<tr >
 			<td>
 			<figure>
-			<img  border=1 src="images/moto_e_front.jpg" height=250 width=250>
+			<img  border=1 src="images/moto_e_front.jpg" >
 			<figcaption align=center>Front View</figcaption>
 			</figure>
 			</td>
 			<td>
 			<figure>
-			<img  border=1 src="images/moto_e_back.jpg" height=250 width=250>
+			<img  border=1 src="images/moto_e_back.jpg" >
 			<figcaption align=center>Side View</figcaption>
 			</figure>
 			</td>
@@ -33,7 +33,47 @@
 		Period Used : 1 years<br><br>
 		Minimum Bid Amount : 3000 INR<br><br>
 		Properties : Motorolla 2nd gen , 4G, 1GB RAM  <br>	<hr>
-		<a href="Bid_r.html"><a href="Bid_r.html"><input type=submit class="button" style="width:200px" value="Bid on the product" align=center></a></a>
+		<a href="#popup1" class="button2">Bid on the product</a>
+		
+		
+		<div id="popup1" class="overlay">
+			<div class="popup">
+			<hr>
+				<h2>Place a bid!</h2><hr>
+				<a class="close" href="#" style="color:black;size:20px;">&nbsp;</a>
+				<div class="content">
+				<form name="product_info" action="product_info_Sa.html">
+				<table align=center cellspacing=20 cellborder=0>
+						<tr>
+							<td>
+								Product title
+							</td>
+							<td>
+								<input type=text name="title">
+							</td>
+						</tr>
+						<tr>
+							<td>Bid Amount</td>
+							<td>
+								<input type=text name="bid_amount">
+							</td>
+						</tr>
+						<tr>
+							<td>Contact number </td>
+							<td>
+								<input type=text name="contact_number">
+							</td>
+						</tr>
+						<tr>
+							<td align=center colspan=2 rowspan=3>
+						<a href="index.html"><input type=submit name="submit" class="button" style="height:40px" formaction="product_info_Sa.html"> </a>
+							</td>
+						</tr>
+			</table>
+			</form>
+					</div>
+			</div>
+		</div>
 		</form>
 		</font>
 	</font>
