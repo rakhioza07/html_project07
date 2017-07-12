@@ -1,0 +1,1 @@
+document.write("<head><style>header{padding:20px;background-color:black; color:white;font-size:40px;font-weight:bold;font-family:rockwell;}</style></head><body><header><img src='logo.png' alt='logo' style='height:50px; width:100px;margin-right:200px;margin-bottom:0px;'>Quikr-Where you can sell or buy</header></body>");
