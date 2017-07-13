@@ -3,45 +3,49 @@
 		<title>
 			Product Information
 		</title>
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	
 	<body bgcolor="lightgrey">
+
+<script src="header.js" ></script>
+<div id="animate-area" style="height:70%;margin:0px 0px 0px 0px;" align=center>
 	<font face="rockwell">
 		<br><h1 align=center>
 		
 		Product Information
 		</h1>
-		<form name="product_info">
+		<form name="product_info" action="product_info_Sa.html">
 		<table align=center cellspacing=20 cellborder=0>
 			<tr>
 				<td>
-					Product title
-				</td>
-				<td>
-					Volkswagon Beetle
+					<input type=text name="title" placeholder="Product title">
 				</td>
 			</tr>
 			<tr>
-				<td>Bid Amount</td>
 				<td>
-					<input type=text name="bid_amount">
+					<input type=text name="bid_amount" placeholder="Bid Amount">
 				</td>
 			</tr>
 			<tr>
-				<td>Contact number </td>
 				<td>
-					<input type=text name="contact_number">
+					<input type=text name="contact_number" placeholder="Contact number">
 				</td>
 			</tr>
 			<tr>
 				<td align=center colspan=2 rowspan=3>
-					<a href="index.html"><input type=submit name="submit" height=50 width=50> </a>
+					<a href="index.html"><input type=submit name="submit" class="button"> </a>
 				</td>
 			</tr>
 		</table>
 		</font>
 		</form>
-		
+		<br><br><br>
 		</font>
+
+<br><br><br><br>
+
+<embed src="footer.html" height="100px" ></embed>
+
 	</body>
 </html>

@@ -1,23 +1,98 @@
 <html>
-	<head>
-		<title>DEMO</title>
-	</head>
-	<body>
-	<font face="Helvetica" size=5>
-		<h1 align=center>
-			HTML ASSIGNMENTS
-		</h1>
-		<ol>
-			<li><a  href="heading_paragraph.html">Heading and paragarph</a><br></li>
-			<li><a  href="image_demo.html">Image demo</a><br></li>
-			<li><a  href="table_demo.html">Table demo</a><br></li>
-			<li><a  href="table_another_demo.html">Table another demo</a><br></li>
-			<li><a  href="list_demo.html">list demo</a><br></li>
-			<li><a  href="login_form.html">Login form</a><br></li>
-			<li><a  href="form_demo.html">Form_demo</a><br></li>
-			<li><a  href="colspan_demo.html">Colspan demo</a><br></li>
-			<li><a  href="rowspan_demo.html">Rowspan demo</a><br></li>
-		</ol>
-	</font>
-	</body>
+
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<script type="text/javascript" src="header.js"></script>
+<body>	<div id="animate-area" style="height:70%">
+
+<a href="#popup1" Class="button2" style="float:right;">Login</a>
+		<a href="SignUp_a.html" Class="button2" style="float:right;">Sign Up</a>
+
+		
+		
+		<div id="popup1"  class="overlay">
+			<div class="popup">
+				<form>
+				<hr>
+					<h2 align=center>Login</h2>
+				<hr>
+				<center>
+				<table>
+					<tr>
+					<td>Enter username: 
+					<input  type="text" name="username" placeholder="username or mail id">
+					</td>
+					</tr>
+
+					<tr>
+					<td>Enter password: 
+					<input type="password" name="password"> 
+					</td>
+					</tr>
+
+					<tr>
+					<td>Select location :&nbsp 
+						<select>
+						 <option value="pune">Pune</option>
+						 <option value="mumbai">Mumbai</option>
+						 <option value="delhi">Delhi</option>
+						 <option value="kolkata">Kolkata</option>
+						</select>
+					</td>
+					</tr> 
+
+					<tr>
+					<td><center>
+					<input class="button" type="submit" value="Login" name="submit" formaction="product_info_Sa.html">
+					</center>
+					</td></tr>
+
+					<tr><td colspan=2>
+					<font face="rockwell" size="3"><center>
+					<a href="index.html">Homepage</a> 
+					</center></font>
+					</td></tr>
+
+					</table>
+					</form>
+				</div>
+		</div>
+		
+		<center>
+		<form>
+			<br>
+			<table style="margin-top:0px;margin-bottom:130px;" cellspacing=30px>
+				<tr ><td  colspan=2><font face="rockwell" size="5">Select location : 
+					<select style="width:150px;font-family:rockwell;font-size:20px;">
+					 <option value="pune">Pune</option>
+					 <option value="mumbai">Mumbai</option>
+					 <option value="delhi">Delhi</option>
+					 <option value="kolkata">Kolkata</option>
+					</select></font>
+					
+				</td></tr> 
+
+				<tr>
+				<td colspan=2><font face="rockwell" size="5">Choose user category:</font></td> 
+				</tr>
+
+				<tr>
+				<td>
+				<button class="button" type="submit" formaction="product_info_Sa.html">Buyer</button>
+				</td>
+
+				<td>
+				<button class="button" type="submit" formaction="SellProduct_ra.html">Seller</button></td>
+				</tr>
+
+			</table>
+		</form>
+		</center>
+		<br><br><br><br>
+	<script src="footer.js"></script>
+	</div>
+		
+
+</body>
 </html>

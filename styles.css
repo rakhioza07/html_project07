@@ -1,15 +1,18 @@
-header{
-background-color:black; 
-color:white;
-padding:10px;
-font-size:40px;
-font-weight:bold;
-font-family:rockwell;
-}
 
+embed{
+	width:100%;
+}
+body
+{
+	background-image:url(http://il6.picdn.net/shutterstock/videos/3723116/thumb/1.jpg);
+}
+.table_space
+{
+	margin:50px 50px 50px 50px;
+}
 footer{
 background-color:black; 
-padding:8px;
+
 }
 
 p{
@@ -27,11 +30,11 @@ p{
 }
 
 a:link{
-color:blue;
+color:white;
 }
 
 a:visited{
-color:red;
+color:white;
 }
 
 a:hover{
@@ -116,6 +119,9 @@ figcaption
 	font-family:rockwell;
 	font-size:20px;
 }
+
+
+
 img
 {
 	border:1px;
@@ -171,6 +177,15 @@ img:hover span:after {
   right: 0;
 }
 
+
+img.slide
+{
+	height:200px;
+	width:250px;
+	margin-left:28px;
+	float:left;
+}
+
 #cells
 {
 	border-collapse: collapse;
@@ -197,53 +212,13 @@ table td tr
 	background-image: url(http://il6.picdn.net/shutterstock/videos/3723116/thumb/1.jpg);
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
-
-	animation: animatedBackground 7s linear infinite;
+	animation: animatedBackground 5s linear infinite;
+	margin:0px 0px 0px 0px;
 }
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-
 
 
 .overlay {
-  position: fixed;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -256,21 +231,22 @@ table td tr
 .overlay:target {
   visibility: visible;
   opacity: 1;
+  background-color:grey;
 }
 
 .popup {
-  margin: 70px auto;
+  margin: 0px 0px 0px 0px;
   background-image:url(http://il6.picdn.net/shutterstock/videos/3723116/thumb/1.jpg);
   border-radius: 5px;
   width: 30%;
   position: relative;
   transition: all 0.5s ease-in;
-   font-family: rockwell;
+  font-family: rockwell;
   font-size:20px;
 }
 
 .popup h2 {
-  margin-top: 0;
+  margin: 0px 0px 0px 0px;
   color: "black";
  
 }
@@ -284,7 +260,7 @@ table td tr
   text-decoration:none;
 }
 .popup .close:hover {
-  color: white;
+  color: red;
 }
 .popup .content {
   max-height: 30%;
@@ -300,10 +276,11 @@ table td tr
 }
 
 .button2 {
-  font-size: 1em;
+  font-size: 20px;
+  margin:0px 0px 0px 0px;
   padding: 10px;
-  width:100px;
-  height:30px;
+  width:70px;
+  height:25px;
   background-color: #001f3F;
   color:#FFFFFF;
   border: 2px solid white;
@@ -316,3 +293,75 @@ a:link{
 	color:white;
 }
 
+.figure
+{
+	margin:0px 0px 0px 0px;
+}
+
+.imgs
+{
+	width:150px;
+	height:150px;
+	background-color:transparent;
+	color:transparent;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

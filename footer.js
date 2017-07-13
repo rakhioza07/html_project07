@@ -1,0 +1,1 @@
+document.write("<head><style>footer{background-color:black;color:white;font-size:20px;font-weight:bold;font-family:rockwell;}</style></head><body><footer><p id='right'><a href=''>Contact us</a>&nbsp&nbsp&nbsp<a href=''>About</a></p><p id='left'>Copyright to Rakhi, Sagar, Aarti</p></footer></body>");
